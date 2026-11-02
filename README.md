@@ -11,7 +11,7 @@ https://textbook.riverlane.com/en/latest/index.html
   - Monte Carlo estimation of logical failure rates.
   - Correlated error burst model.
   - Benchmark plotting routines for threshold and error floors.
-- **`tests/test_reptition_code.py`**: Automated unit tests verifying codeword parity, majority-vote logic, error suppression below threshold.
+- **`tests/test_repetition_code.py`**: Automated unit tests verifying codeword parity, majority-vote logic, error suppression below threshold.
 
 ## Setup & Testing
 ```bash
@@ -19,3 +19,4 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python -m pytest
+```
